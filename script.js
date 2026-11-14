@@ -344,7 +344,7 @@ function setupBirthdayPuzzle() {
 
   const checkBirthday = () => {
     const enteredDate = birthdayInput.value.trim();
-    const correctDate = '21-12-2004';
+    const correctDate = '21-12-2002';
 
     if (enteredDate === correctDate) {
       puzzleMessage.textContent = 'Correct! Happy Birthday, mylove Bhavadharani! Opening your surprise...';
