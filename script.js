@@ -358,7 +358,7 @@ function setupBirthdayPuzzle() {
       return;
     }
 
-    puzzleMessage.textContent = 'Oops! Try 21-12-2004.';
+    puzzleMessage.textContent = 'Oops! Try 21-12-2002.';
     puzzleMessage.classList.remove('success');
     puzzleMessage.classList.add('error');
     birthdayInput.value = '';
